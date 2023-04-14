@@ -1,0 +1,30 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ccc;
+}
+.result {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
